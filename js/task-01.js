@@ -7,10 +7,14 @@ function showNumberOfCategories(el) {
 
 }
 function showCategory(el) {
-    for (let category of el) {
+
+    el.forEach(category => {
         console.log(`Category: ${category.firstElementChild.textContent}`)
+
         console.log(`Elements: ${category.lastElementChild.children.length}`)
-}
+    })
+
+
 }
 
 showNumberOfCategories(categoriesListEl)

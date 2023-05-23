@@ -7,7 +7,7 @@ formEl.addEventListener('submit', onFormSubmit)
 
 function onFormSubmit(event) {
     event.preventDefault()
-    if (emailInputEl.value === '' || passwordInputEl === '') {
+    if (emailInputEl.value === "" || passwordInputEl.value === "") {
         window.alert("Заповніть всі поля, будь ласка!")
     }
     else {
