@@ -21,6 +21,7 @@ function createBoxes(amount) {
   const boxEl = document.createElement('div')
   boxEl.style.width = `${20 + 10 * i}px`
   boxEl.style.height = `${20 + 10 * i}px`
+  boxEl.style.borderRadius = "25%"
   boxEl.style.backgroundColor = `${getRandomHexColor()}`
     boxes.push(boxEl)
   }
