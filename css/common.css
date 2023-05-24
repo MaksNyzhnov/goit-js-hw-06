@@ -38,3 +38,12 @@ img {
   width: 400px;
   height: 270px;
 }
+
+#boxes {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: left;
+  align-items: center;
+}
